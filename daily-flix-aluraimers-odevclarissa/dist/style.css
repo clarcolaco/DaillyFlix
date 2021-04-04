@@ -1,0 +1,114 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  text-align:center;
+  background-image: 
+        radial-gradient(circle at left bottom, 
+        #ffff 0%, #ffff 20%, 
+        #fffb 20%, #fffb 30%, 
+        #fff6 30%, #fff6 40%, 
+        #fff2 40%, #fff2 50%, 
+        transparent 50%, transparent 100%),
+        url(https://i.pinimg.com/originals/d9/af/b2/d9afb2f0c922f34cb6ae8ad219f53ca3.gif);
+    background-size: 50% 40%, cover;
+    background-position: bottom left, center;
+   background-repeat: no-repeat;
+  animation: nome 5s infinite;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
+
+
+.page-title {
+  color: #ffffff;
+  font-size: 100px;
+  margin: 100 20 20px;
+}
+
+.page-subtitle2 {
+  color: #ffffff;
+  margin-top: 30px;
+  font-size:15pt;
+}
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 30px;
+  font-size:15pt;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+
+option {
+  font-size: 20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+img {
+  width: 15%;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+}
+img:hover {
+  opacity: 0.3;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  opacity: 0.3;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+ #listaFilmes img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+  
+  .form-wrapper button {
+    border: #fff;
+    color: #ffffff;
+    background: #DA1E26;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
